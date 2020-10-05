@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<title>Spotify</title>
+<head>
+        <style>   body{  background-image: url("http://uupload.ir/files/w6bz_33.jpg"); height: 100%;   background-repeat: repeat; background-size: cover;  }</style>
+
+    </head>
+<meta name="viewport" content="width=100%, initial-scale=1">
+
+
+<p class="w3-center" size="30"  align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+
+
+<body>
+
+
+
+<div class="w3-content w3-display-container" align=center opacity=.1>
+
+<a href="http://127.0.0.1:5000/musics?token=admin">
+<img class="mySlides" src="https://i.pinimg.com/736x/e9/2d/c2/e92dc294bbc9b7cb096c1ee9b40a71fe--music-logo-design-logo-music.jpg" style="height:30%" >
+</a>
+  <a href="http://127.0.0.1:5000/playlists?token=admin">
+  <img class="mySlides" src="https://fiverr-res.cloudinary.com/t_main1,q_auto,f_auto/gigs/22389447/original/eae14822120b32504b6dc0be552faa6a2e2bc4da.jpg" style="width:25% "  ></a>
+
+   <a href="http://127.0.0.1:5000/albums?token=admin">
+  <img class="mySlides" src="https://beautifulpixels.com/wp-content/uploads/2014/08/albums-masthead-720x340.jpg" style="width:35%"></a>
+ 
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>

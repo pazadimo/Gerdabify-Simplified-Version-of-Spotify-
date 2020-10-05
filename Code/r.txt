@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center">Automatic Slideshow</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="///home/novin/Downloads/ph2/1.jpg" style="width:100%">
+  <img class="mySlides" src="///home/novin/Downloads/ph2/2.jpg" style="width:100%">
+  <img class="mySlides" src="///home/novin/Downloads/ph2/3.jpg" style="width:100%">
+</div>
+
+
+</body>
+</html>
+
+
+
+https://www.w3schools.com/w3css/img_ny.jpg
