@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<head>
+        <style>   body{  background-image: url("http://uupload.ir/files/w6bz_33.jpg"); height: 100%;   background-repeat: repeat; background-size: cover;  }</style>
+
+    </head>
+<meta name="viewport" content="width=100%, initial-scale=1">
+
+<font class="w3-center" size="30" align=middle style="align=center">Spotify</font>
+<p class="w3-center" size="30"  align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+<p class="w3-center" size=6 align=left>`</p>
+
+<body>
+
+
+
+<div class="w3-content w3-display-container" align=center opacity=.1>
+
+
+
+<img class="mySlides" src="http://uupload.ir/files/fqs6_output_js4lki.gif" style="width:30%">
+
+ 
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
